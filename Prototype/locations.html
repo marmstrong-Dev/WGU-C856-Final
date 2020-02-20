@@ -1,0 +1,293 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Popular Locations</title>
+	<link rel="stylesheet" href="./bootstrap.css">
+    <script src="./jquery.js"></script>
+    <script src="./popper.js"></script>
+    <script src="./bootstrap.js"></script>
+  	<link rel="stylesheet" href="./custombs.css">
+  	<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+	<header class="nav justify-content-center bg-primary text-white">
+        <h1>Popular Locations</h1>
+    </header>
+
+    <nav class="nav navbar-expand-sm justify-content-center bg-secondary text-white">
+		<button id="openerBtn" onclick="catBarHider()" class="btn btn-primary">
+			<i class="material-icons">menu</i><br/>Categories
+		</button>
+		
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="./locations.html">Locations</a></li>
+            <li class="nav-item"><a class="nav-link" href="./faqs.html">FAQs</a></li>
+            <li class="nav-item"><a class="nav-link" href="./contact.html">Contact Us</a></li>
+		</ul>
+	</nav>
+
+	<div id="catMenu" class="card" style="display: none">
+		<div class="card-header">
+			<h4>Categories</h4>
+		</div>
+		<div class="card-body">
+			<button onclick="categoryHider('historicalWrapper')" class="btn btn-primary catButtons">Historical</button>
+			<button onclick="categoryHider('restaurantWrapper')" class="btn btn-primary catButtons">Restaurants</button>
+			<button onclick="categoryHider('groceryWrapper')" class="btn btn-primary catButtons">Grocery / Pharmacy</button>
+			<button onclick="categoryHider('lodgingWrapper')" class="btn btn-primary catButtons">Lodging</button>
+			<button onclick="categoryHider('nightlifeWrapper')" class="btn btn-primary catButtons">Entertainment</button>
+		</div>
+	</div>
+
+	<div id="historicalWrapper" style="display:block">
+		<div class="locationRow row">
+			<div class="card col-sm-5">
+				<div class="card-header">
+					<img class="locationImg" src="./historical1.jpg">
+				</div>
+				<div class="locationTag card-body">
+					<h5 class="text-white">Merriton Landing</h5>
+				</div>
+			</div>
+			<div class="card col-sm-7">
+				<div class="card-body">Bordering Yellow Leaf Bay is the vibrant town of Merriton Landing which is home to many of the activities found in Taniti. This rapidly expanding town is home to may pubs, microbreweries, and dance clubs. There are also helicopter rides for aerial tours of the area.</div>
+			</div>
+		</div>
+
+		<div class="locationRow row">
+			<div class="card col-sm-5">
+				<div class="card-header">
+					<img class="locationImg" src="./historical2.jpg">
+				</div>
+				<div class="locationTag card-body">
+					<h5 class="text-white">Tanitian Rainforest</h5>
+				</div>
+			</div>
+			<div class="card col-sm-7">
+				<div class="card-body">
+					<p>The Tanitian rainforest is a unique ecosystem that is home to several species of plants and animals. It also contains serveral rivers and springs which are key fresh water sources for the Tanitian people.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="locationRow row">
+			<div class="card col-sm-5">
+				<div class="card-header">
+					<img class="locationImg" src="./historical3.jpg">
+				</div>
+				<div class="locationTag card-body">
+					<h5 class="text-white">Tanitian Volcano</h5>
+				</div>
+			</div>
+			<div class="card col-sm-7">
+				<div class="card-body">A popular tourist spot is the great Tanitian Volcano. This active volcano steals the Taniti skyline and attracts visitors for all over the world.</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="restaurantWrapper" style="display: none">
+		<div class="locationRow row">
+			<div class="card col-sm-5">
+				<div class="card-header">
+					<img class="locationImg" src="./restaurant1.jpg">
+				</div>
+				<div class="locationTag card-body">
+					<h5 class="text-white">Swordfish Grill</h5>
+				</div>
+			</div>
+			<div class="card col-sm-7">
+				<div class="card-body">
+					<p>Long hailed as the finest seafood restaurant in Taniti, the Swordfish Grill serves locally caught seafood along with island grown rice and vegitables.</p>
+					<p>For More Info: Call 010-880-6634</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="locationRow row">
+			<div class="card col-sm-5">
+				<div class="card-header">
+					<img class="locationImg" src="./restaurant2.jpg">
+				</div>
+				<div class="locationTag card-body">
+					<h5 class="text-white">Fusion Pan-Asian Cuisine</h5>
+				</div>
+			</div>
+			<div class="card col-sm-7">
+				<div class="card-body">
+					<p>Family owned and operated Fusion Cuisine is a critically acclaimed restaurant serving up pan-american style asian delicacies.</p>
+					<p>For More Info: Call 010-781-8787</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="locationRow row">
+			<div class="card col-sm-5">
+				<div class="card-header">
+					<img class="locationImg" src="./restaurant3.jpg">
+				</div>
+				<div class="locationTag card-body">
+					<h5 class="text-white">Memphis Diner</h5>
+				</div>
+			</div>
+			<div class="card col-sm-7">
+				<div class="card-body">
+					<p>The Memphis Diner was modeled after traditional American diners and can offer a taste that is uniquely USA.</P>
+					<p>For More Info: Call 020-634-2587</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="groceryWrapper" style="display: none">
+		<div class="locationRow row">
+			<div class="card col-sm-5">
+				<div class="card-header">
+					<img class="locationImg" src="./grocery1.jpg">
+				</div>
+				<div class="locationTag card-body">
+					<h5 class="text-white">Sunshine Grocery</h5>
+				</div>
+			</div>
+			<div class="card col-sm-7">
+				<div class="card-body">Sunshine Grocery is Taniti's largest grocery and pharmacy store. With a huge variety of foods and cosmetics, Sunshine is sure to have what you need.</div>
+			</div>
+		</div>
+
+		<div class="locationRow row">
+			<div class="card col-sm-5">
+				<div class="card-header">
+					<img class="locationImg" src="./grocery2.jpg">
+				</div>
+				<div class="locationTag card-body">
+					<h5 class="text-white">Kala 24 Hour Convenience Store</h5>
+				</div>
+			</div>
+			<div class="card col-sm-7">
+				<div class="card-body">The most reliable store on the island is always open to serve your needs.</div>
+			</div>
+		</div>
+
+		<div class="locationRow row">
+			<div class="card col-sm-5">
+				<div class="card-header">
+					<img class="locationImg" src="./grocery3.jpg">
+				</div>
+				<div class="locationTag card-body">
+					<h5 class="text-white">Palm Place Market</h5>
+				</div>
+			</div>
+			<div class="card col-sm-7">
+				<div class="card-body">The Palm Place market is often a popular tourist destination due to it's unique island fruits and vegetables at affordable prices. All produce is organically grown locally.</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="lodgingWrapper" style="display: none">
+		<div class="locationRow row">
+			<div class="card col-sm-5">
+				<div class="card-header">
+					<img class="locationImg" src="./lodging2.jpg">
+				</div>
+				<div class="locationTag card-body">
+					<h5 class="text-white"p>Tropical Oasis Hotel</h5>
+				</div>
+			</div>
+			<div class="card col-sm-7">
+				<div class="card-body">
+					<p>Tropical Oasis Hotel is a true island getaway residing on the Tanitian coast and close to Taniti City. The Hotel room includes free breakfast and the lounge is open all night.</p>
+					<p>For More Info: Call 010-220-4544</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="locationRow row">
+			<div class="card col-sm-5">
+				<div class="card-header">
+					<img class="locationImg" src="./lodging1.jpg">
+				</div>
+				<div class="locationTag card-body">
+					<h5 class="text-white">White Sands Luxury Resort</h5>
+				</div>
+			</div>
+			<div class="card col-sm-7">
+				<div class="card-body">
+					<p>This 4 star hotel is Taniti's most luxurious resort. Residing along Taniti's western coast and boasting a magnificent oceanside view, the White Sands Resort hosts a sauna, massage service, large pool, and full service bar.</p>
+					<p>For More Info: Call 020-320-6643</p>
+				</div>
+			
+			</div>
+		</div>
+
+		<div class="locationRow row">
+			<div class="card col-sm-5">
+				<div class="card-header">
+					<img class="locationImg" src="./lodging3.jpg">
+				</div>
+				<div class="locationTag card-body">
+					<h5 class="text-white">Welcome Waves Hostel</h5>
+				</div>
+			</div>
+			<div class="card col-sm-7">
+				<div class="card-body">
+					<p>For those interested in adventure but don't want to break the bank, the Welcome Waves hostel can provide shared lodging for an affordable cost.</p>
+					<p>For More Info: Call 020-650-9989</p>
+				</div>		
+			</div>
+		</div>
+	</div>
+
+	<div id="nightlifeWrapper" style="display: none">
+		<div class="locationRow row">
+			<div class="card col-sm-5">
+				<div class="card-header">
+					<img class="locationImg" src="./nightlife1.jpg">
+				</div>
+				<div class="locationTag card-body">
+					<h5 class="text-white"p>Taniti Special Microbrewery</h5>
+				</div>
+			</div>
+			<div class="card col-sm-7">
+				<div class="card-body">This local microbrewery is independently owned and family run. Taniti Special is a favorite spot for visitors looking for good quality craft beer.</div>
+			</div>
+		</div>
+
+		<div class="locationRow row">
+			<div class="card col-sm-5">
+				<div class="card-header">
+					<img class="locationImg" src="./nightlife2.jpg">
+				</div>
+				<div class="locationTag card-body">
+					<h5 class="text-white">Island Heat Night Club</h5>
+				</div>
+			</div>
+			<div class="card col-sm-7">
+				<div class="card-body">The Island Heat club favorite hangout for college students and tourists looking to let loose.</div>
+			</div>
+		</div>
+
+		<div class="locationRow row">
+			<div class="card col-sm-5">
+				<div class="card-header">
+					<img class="locationImg" src="./nightlife3.jpg">
+				</div>
+				<div class="locationTag card-body">
+					<h5 class="text-white">Metro Arcade</h5>
+				</div>
+			</div>
+			<div class="card col-sm-7">
+				<div class="card-body">Arcades are alive and well in Taniti. This popular entertainment mainstay is home to several retro game machines as well as some newer titles.</div>
+			</div>
+		</div>
+	</div><br/>
+
+	<footer class="bg-primary text-white">
+        <p>Footer</p>
+    </footer>
+    
+	<script src="./app.js"></script>
+  
+</body>
+</html>

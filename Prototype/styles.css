@@ -1,0 +1,162 @@
+/*
+Primary - #008080
+Secondary - #BFBFBF
+Danger - #DC3545
+Warning - #FFC107
+Success - #28A745
+
+Font Family - Verdana
+*/
+
+header {
+    padding: 15px;
+    height: 120px;
+}
+
+nav {
+    height: 60px;
+}
+
+.nav-item {
+    margin-top: 7px;
+    list-style-type: none;
+}
+
+footer {
+    height: 140px;
+}
+
+#welcomeGallery {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 45%;
+    height: auto;
+}
+
+.galleryPhoto {
+    height: 600px;
+}
+
+#welcomeContext {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border: 1px solid #008080;
+}
+
+.locationRow {
+    margin-top: 20px;
+    border: 1px solid #008080;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.locationImg {
+    width: 100%;
+}
+
+.locationTag {
+    background-color: #008080;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#openerBtn {
+    left: 0;
+    border-radius: 0;
+    height: 60px;
+    position: absolute;
+}
+
+#openerBtn:focus {
+    background-color: #008080;
+}
+
+#catMenu {
+    width: 100%;
+    text-align: center;
+}
+
+.catButtons {
+    width: 130px;
+    margin-bottom: 5px;
+}
+
+.catButtons:focus {
+    background-color: #BFBFBF;
+    color: #000000;
+}
+
+#searchBar {
+    margin: 10px;
+    width: 40%;
+}
+
+.faqCard {
+    margin: 15px;
+    height: 300px;
+}
+
+.faqHeader {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #008080;
+}
+
+.faqContext {
+    padding: 15px;
+}
+
+#faqWrapper {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+#formBanner {
+    margin: 10px;
+    text-align: center;
+}
+
+#contactForm {
+    margin: 10px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contactInfo {
+    box-shadow: 3px 4px 4px #c4c4c4;
+    margin: 8px;
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formLabels {
+    margin-left: 65px;
+}
+
+.contactField {
+    width: 60%;
+    float: right;
+    margin-right: 20%;
+}
+
+#inqContext {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 340px;
+}
+
+#emailButton {
+    width: 20%;
+    margin-left: 66%;
+}

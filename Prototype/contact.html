@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitor Services</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <script src="./jquery.js"></script>
+    <script src="./popper.js"></script>
+    <script src="./bootstrap.js"></script>
+  	<link rel="stylesheet" href="./custombs.css">
+  	<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+	<header class="nav justify-content-center bg-primary text-white">
+        <h1>Contact Us</h1>
+    </header>
+
+    <nav class="nav navbar-expand-sm justify-content-center bg-secondary text-white">
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="./locations.html">Locations</a></li>
+            <li class="nav-item"><a class="nav-link" href="./faqs.html">FAQs</a></li>
+            <li class="nav-item"><a class="nav-link active" href="./contact.html">Contact Us</a></li>
+        </ul>
+	</nav>
+	
+	<div id="contactInfo" class="card">
+		<div class="card-body">
+			<h4>Department of Tourism and Travel : </h4>
+        	<p>4255 Golden Sands Blvd, <br/>Taniti City</p>
+        	<br/>
+        	<p>Phone (main office) : 454-788-6598</p>
+		</div>
+	</div>
+
+	<div>
+		<h3 id="formBanner">Send Us An Email</h3>
+		<form id="contactForm">
+			<div class="form-group form-check">
+				<label class="formLabels" for="visitorName">Name: </label>
+				<input type="text" class="form-control contactField" name="visitorName">
+			</div>
+			<div class="form-group form-check">
+				<label class="formLabels" for="eAddress">Email: </label>
+				<input type="email" class="form-control contactField" name="eAddress">
+			</div>
+			<div class="form-group form-check">
+				<label class="formLabels" for="inqSubject">Subject: </label>
+				<input type="text" class="form-control contactField" name="inqSubject">
+			</div>
+			<div class="form-group form-check">
+				<textarea class="form-control" placeholder="How can we help?" id="inqContext"></textarea>
+			</div>
+
+			<button id="emailButton" class="btn btn-outline-primary" type="submit">Send</button>
+		</form>
+	</div><br/>
+
+	<footer class="bg-primary text-white">
+        <p>Footer</p>
+    </footer>
+    
+    <script src="./app.js"></script>
+    
+</body>
+</html>
