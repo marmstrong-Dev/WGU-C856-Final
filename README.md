@@ -2,20 +2,20 @@
 Performance Assesment for C856 (UX Design)
 
 
-__ You have been contacted by the local government of the small island of Taniti. Since the island’s economy relies heavily on tourism, the Tanitian government has developed a plan to increase the number of tourists who visit the island and its attractions. As part of this plan, they have hired you to design a tourism website. __
+__You have been contacted by the local government of the small island of Taniti. Since the island’s economy relies heavily on tourism, the Tanitian government has developed a plan to increase the number of tourists who visit the island and its attractions. As part of this plan, they have hired you to design a tourism website.__
 
-__ The Tanitian government has conducted a survey to gather information about current tourists. Their findings from this survey are shown in the “Survey Results” attachment. The government has also provided you with the attached “About the Island” document to better inform you about Taniti and its visitors. __
+__The Tanitian government has conducted a survey to gather information about current tourists. Their findings from this survey are shown in the “Survey Results” attachment. The government has also provided you with the attached “About the Island” document to better inform you about Taniti and its visitors.__
 
-__ Taniti’s current website has an outdated look and feel. The page navigation is unclear. All the tourist information is jumbled together on a single page, and the site lacks booking information and links to each activity or option. The site is also not compatible with mobile devices. __
+__Taniti’s current website has an outdated look and feel. The page navigation is unclear. All the tourist information is jumbled together on a single page, and the site lacks booking information and links to each activity or option. The site is also not compatible with mobile devices.__
 
-__ The Tanitian government would like you to spend no more than one month designing a new website that will increase tourism on the island of Taniti and provide a welcoming experience for prospective tourists.  __
+__The Tanitian government would like you to spend no more than one month designing a new website that will increase tourism on the island of Taniti and provide a welcoming experience for prospective tourists.__
 
 
 ## Requirements
 
-_ Your submission must be your original work. No more than a combined total of 30% of the submission and no more than a 10% match to any one individual source can be directly quoted or closely paraphrased from sources, even if cited correctly. An originality report is provided when you submit your task that can be used as a guide.  _
+_Your submission must be your original work. No more than a combined total of 30% of the submission and no more than a 10% match to any one individual source can be directly quoted or closely paraphrased from sources, even if cited correctly. An originality report is provided when you submit your task that can be used as a guide._
 
-_ You must use the rubric to direct the creation of your submission because it provides detailed criteria that will be used to evaluate your work. Each requirement below may be evaluated by more than one rubric aspect. The rubric aspect titles may contain hyperlinks to relevant portions of the course.  _
+_You must use the rubric to direct the creation of your submission because it provides detailed criteria that will be used to evaluate your work. Each requirement below may be evaluated by more than one rubric aspect. The rubric aspect titles may contain hyperlinks to relevant portions of the course._
 
 
 A.  Create a timeline of the UX design activities that will take place during this project. 
